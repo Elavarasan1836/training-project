@@ -1,0 +1,68 @@
+.signUp{
+
+background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQA0wMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAYF/8QAHBABAQEBAQEBAQEAAAAAAAAAABEBAhIDYRMh/8QAGgEAAwEBAQEAAAAAAAAAAAAAAAECAwUEBv/EAB0RAQACAwEBAQEAAAAAAAAAAAABEQIDEgQTYRT/2gAMAwEAAhEDEQA/APa/zPw1mHHvfHR5Pxj4Pw2zBBTSPIy8nnLSHBTSPIz8jOWkEFNI8qPODyuA6aR5U5yPKgKax5Uw4YOlx5Sghg6aR5SghgU0jyjMAAppHlAAp0uPKAKKdNI8oBUqKaR5VBIOlfyqACKc6POAAdNI88AAUU0jzwAKVOmkeeDBUU+Vx54MFSoppHnhVFSVFLjRC6VTRunS40QqiooopcaIVuip3SoaRphdKppUKjSulU0ULjVCqKiihcaoXQgBXzhvSupoopzo0qoqaVDSNSroqaAuNR7opUgr5KoqaVCvmqipooXGtVKlSCvmqlSAtXB0UgLVwKCBWrg6CAtUYGQBWcYgEKXSuTCaC6HLYiJo8kYKoSBaowOikQtXBggVnGKqRAWrgwQK1cmCBWfIApbpWfJipoqZyVyqio3SpWdLpVNKl0dLpVO6VLo6VRU0qmcjpVNnQnsU6QQeq3n5AAKz5AIDo+TIqN1NqoxU0UrOlUt1NG6VnSqVSC6OlUqVLdT0KVSqaKU5HSt0qndFTOZ0qlU0qiczpVLdTRUzsFKpUgidh0dBBH0DrIqVdG2NKpUqW6VnSqVTRSs6Mbqd0qno6VRU0UpyFGE7oqezo6KmlupnI6VRUUVE5nSqVII7FHSoCJ2AAQ4znYCBw8xE7BaTisxWcs52FbOBr5CPqXQpUqVdroUqlSoKcjo6VIVE5Cj3SKipnMUdKkEzmdGWgM5zMACInMgDzDiJzCRFQ/LOdhTKYeYrOVZyidhWiHGmcnnDOcynJn5VnLTwrOGc5pnJnnKs5bZx+KzhnOaJzY+A6fAR2jt8ykVKvoJzetW6ndAROYFAEROwAHmCInYLIKhxE5i0wZi4eYznYVohxXlWconYVozk/LTyrOWc5p6ZZyrOWucKzhE5pnJlnKs5a5wvOGfbOc2OcrzhrnH4vPmmckzmyzhWcfjfn5r5+aJyZzsYZw0z5ts4aZ80TkznY5/5h1/zIrR9HlhFB3J2OuUGYrMEROwrKCKisxnOwrRmHF+T8onMrRDzGmcqzn/ETmmcmecn5aZyrOETmmcmecqzlrnCs4ROaZzZZyvOGucKzhE5s5zZZwrOG/PC+fmmckTmwzhefNvnCs4R0znYyz5rzhtnC84TbOdjHOF88NueV5yVs5zZZ8188Nc5VnKWc5s/BN/ICeniTAdmX0B5hgIkjVmAIlKsw4AiUqzF5mAJlMqzMVmYAiUSvMxWZgCJZyvMXmAJRK8zF5mAIZyvnMXmYATOV5mLzMAJnK8zFZmGCRJ5ioQEIkyAWl//2Q==");
+background-size:cover ;
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.form{
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid  rgb(129, 121, 121);
+    border-radius: 1px;
+}
+.signUpLogo{
+    width: 100px;
+    object-fit: contain;
+    padding: 10px 0px;
+
+}
+.loginPara{
+    color:rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0px 40px 20px 40px;
+    
+}
+input{
+    padding: 5px;
+    margin: 3px 0px ;
+    outline:none;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.form > div{
+    width: 80%;
+    margin: auto;
+
+}
+#submit-btn{
+    background-color: #1773EA;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 8px;
+
+
+}
+.form2{
+    background-color: #ffffff4d;
+    padding: 30px;
+    margin-top: 5px;
+    border: 1px solid rgb(129,121,121);
+    border-radius: 1px;
+}
+
+
+
