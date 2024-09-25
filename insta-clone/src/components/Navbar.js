@@ -13,7 +13,7 @@ export default function Navbar({ login }) {
       return [
         <>
           <Link to="/profile">
-            <li>Profile</li>
+            <li style={{fontSize:20,fontWeight:'700'}}>Profile</li>
           </Link>
           <Link to="/createPost">Create Post</Link>
           <Link style={{ marginLeft: "20px" }} to="/followingpost">
