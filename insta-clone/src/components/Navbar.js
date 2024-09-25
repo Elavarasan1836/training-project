@@ -20,7 +20,7 @@ export default function Navbar({ login }) {
             My Following
           </Link>
           <Link to={""}>
-            <button className="primaryBtn" onClick={() => setModalOpen(true)}>
+            <button style={{ marginLeft: "20px",fontWeight:'700',color:'gainsboro' }} className="primaryBtn" onClick={() => setModalOpen(true)}>
               Log Out
             </button>
           </Link>
